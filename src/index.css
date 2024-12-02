@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    appearance: none;
+    -mozkit-appearance: textfield;
+    margin: 0;
+  }
+}
+
+:root {
+  --primary-a: 124, 22, 46;
+  --primary-b: 92, 22, 46;
+  --primary-c: 60, 22, 47;
+  --secondary-a: 17, 14, 27;
+  --secondary-b: 25, 21, 40;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  outline: none;
+  user-select: none;
+}
+
+.light {
+  --primary-a: 39, 76, 119;
+  --primary-b: 96, 150, 186;
+  --primary-c: 163, 206, 241;
+  --secondary-a: 255, 255, 255;
+  --secondary-b: 231, 236, 239;
+}
+
+.dark {
+  --primary-a: 124, 22, 46;
+  --primary-b: 92, 22, 46;
+  --primary-c: 60, 22, 47;
+  --secondary-a: 17, 14, 27;
+  --secondary-b: 25, 21, 40;
+}
