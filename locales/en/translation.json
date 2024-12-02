@@ -1,0 +1,17 @@
+{
+  "smallScreen": "Unfortunately, your screen is too small to display the content",
+  "header": {
+    "title": "Minesweeper"
+  },
+  "main": {
+    "playButton": "Play",
+    "settingsButton": "Settings"
+  },
+  "settings": {
+    "rowsSlider": "Rows: ",
+    "columnsSlider": "Columns: ",
+    "minesSlider": "Mines: ",
+    "languageButton": "Language: ",
+    "themeButton": "Theme: "
+  }
+}

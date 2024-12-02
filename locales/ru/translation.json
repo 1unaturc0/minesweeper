@@ -1,0 +1,17 @@
+{
+  "smallScreen": "К сожалению, ваш экран слишком мал, чтобы отобразить содержимое",
+  "header": {
+    "title": "Сапёр"
+  },
+  "main": {
+    "playButton": "Играть",
+    "settingsButton": "Настройки"
+  },
+  "settings": {
+    "rowsSlider": "Ряды: ",
+    "columnsSlider": "Столбцы: ",
+    "minesSlider": "Мины: ",
+    "languageButton": "Язык: ",
+    "themeButton": "Тема: "
+  }
+}
