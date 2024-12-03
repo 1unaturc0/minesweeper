@@ -28,6 +28,10 @@
   user-select: none;
 }
 
+body {
+  overscroll-behavior: none;
+}
+
 .light {
   --primary-a: 39, 76, 119;
   --primary-b: 96, 150, 186;
