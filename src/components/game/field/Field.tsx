@@ -15,6 +15,8 @@ const Field = () => {
     const field = fieldRef.current;
     if (!container || !field) return;
 
+    e.preventDefault();
+
     const clientX = e instanceof MouseEvent ? e.clientX : e.touches[0].clientX;
     const clientY = e instanceof MouseEvent ? e.clientY : e.touches[0].clientY;
 
@@ -73,7 +75,7 @@ const Field = () => {
     <div
       onContextMenu={(e) => e.preventDefault()}
       ref={containerRef}
-      className="hmd:max-h-[400px] relative z-10 h-full max-h-[350px] w-full overflow-hidden rounded-md border-2 border-solid border-primary-b bg-secondary-a"
+      className="relative z-10 h-full max-h-[350px] w-full touch-none overflow-hidden rounded-md border-2 border-solid border-primary-b bg-secondary-a hmd:max-h-[400px]"
     >
       <div ref={fieldRef} className="relative flex flex-col">
         {cellsRowItems}
